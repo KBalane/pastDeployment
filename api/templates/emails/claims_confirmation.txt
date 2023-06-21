@@ -1,0 +1,4 @@
+You have claimed policy #{{ Policy_id }}
+Claim ref #{{ Claims_refno }}
+
+We will notify you once credited to your account

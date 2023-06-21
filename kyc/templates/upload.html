@@ -1,0 +1,12 @@
+<html>
+<body>
+	<form action="{% url 'kyc:upload_pic' %}" method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+	    <p>
+			<input id="id_image" type="file" class="" name="id_image">
+			<input type="text" name="template_name" placeholder="Template Name">
+	    </p>
+	    <input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

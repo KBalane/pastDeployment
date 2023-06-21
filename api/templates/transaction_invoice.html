@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>TH_{{name}}_{{id}}</title>
+        <style type="text/css">
+            body {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .header {
+                font-size: 20px;
+                font-weight: 100;
+                text-align: center;
+                color: #007cae;
+            }
+            .title {
+                font-size: 22px;
+                font-weight: 100;
+               /* text-align: right;*/
+               padding: 10px 20px 0px 20px;  
+            }
+            .title span {
+                color: #007cae;
+            }
+            .details {
+                padding: 10px 20px 0px 20px;
+                text-align: left !important;
+                /*margin-left: 40%;*/
+            }
+            .hrItem {
+                border: none;
+                height: 1px;
+                /* Set the hr color */
+                color: #333; /* old IE */
+                background-color: #fff; /* Modern Browsers */
+            }
+            .tdbreak {
+                display: inline-block;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class='wrapper'>
+            <div class='header'>
+                <p class='title'>Transaction History</p>
+            </div>
+        <div>
+        <div class='details'>
+			Billed to:  {{name}}<br/>
+			
+			<table>
+				<tr>
+					<th>Transaction ID</th>
+					<th>Amount</th>
+					<th>Date</th>
+					<th>Payment Type</th>
+				</tr>
+                {% for transaction in transactions %}
+				<tr>
+                
+					<td>
+                        <div class = 'tdbreak'>
+                            {{transaction.txn_id}}
+                        </div>
+                    </td>
+					
+                    <td>{{transaction.amount}}</td>
+					<td>{{transaction.transaction_date}}</td>
+					<td>{{transaction.processor_type}} </td>
+				</tr>
+                {% endfor %}
+				
+			</table>
+            <hr class='hrItem' />
+        </div>
+    </div>
+    </body>
+</html>

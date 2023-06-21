@@ -1,0 +1,18 @@
+[
+    {
+        "model": "digiinsurance.User",
+        "pk": 1,
+        "fields": {
+            "username": "doadmin",
+            "password": "test321"
+        }
+    },
+    {
+        "model": "digiinsurance.User",
+        "pk": 2,
+        "fields": {
+            "username": "vankeith",
+            "password": "pogiako69_"
+        }
+    }
+]

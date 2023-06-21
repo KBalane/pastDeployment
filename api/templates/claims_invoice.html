@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>CH_{{name}}_{{id}}</title>
+        <style type="text/css">
+
+            
+            @page { 
+                size:8.5in 11in; 
+                margin: 2cm 
+            }
+            @media print {
+                /*
+                html, body {
+                    width: 210mm;
+                    height: 297mm;
+                }*/
+                
+                h1 { 
+                    font: bold 100% sans-serif; 
+                   /* letter-spacing: 0.5px; */
+                    text-align: center; 
+                    text-transform: uppercase; 
+                    /*page-break-before: always;*/
+                }
+                
+                table {
+                    page-break-inside: avoid;
+                }
+                
+                .wp-table tr:first-child {
+                    background-color: #f1f1f1;
+                }
+
+                .wp-table tr {
+                    border-bottom: 1px solid #ddd;
+                }
+                
+                .wp-table th:first-child, 
+                .wp-table td:first-child {
+                    padding-left: 16px;
+                }
+
+                .wp-table td, 
+                .wp-table th {
+                    padding: 8px 8px;
+                    display: table-cell;
+                    text-align: left;
+                    vertical-align: top;
+                }
+                
+                .wp-table th {
+                    font: bold 100% sans-serif; 
+                    /*letter-spacing: 0.1em;*/
+                }
+                
+                .wp-table {
+                    font-size: 13px!important;
+                    border: 1px solid #ccc;
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                    width: 100%;
+                    display: table;
+                }
+                /*
+                .faded {
+                    color: #e6e6e6;
+                }*/
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1> CLAIMS HISTORY </h1>
+
+        <br/>
+        <hr class="faded">
+        <br/>
+
+        <div class='details'>
+            <div class="row contacts">
+                <div class="col invoice-to">
+                    <div class="faded">BILLED TO:</div>
+                    <h2 class="to"> {{name}} </h2>
+                </div>
+            </div>
+            <br/> 
+			<table class="wp-table">
+				<tr class="heading">
+					<th>TRANSACTION ID</th>
+					<th>DATE</th>
+					<th>DESCRIPTION</th>
+				</tr>
+                {% for claim in claims %}
+				<tr>
+					<td>{{claim.claims_refno}}</td>
+					<td>{{claim.modified_at}}</td>
+					<td>{{claim.details}}</td>
+				</tr>
+				{% endfor %}
+			</table>
+            <br/>
+            <hr class="faded">
+        </div>
+    </div>
+    </body>
+</html>

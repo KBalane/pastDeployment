@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "digiinsurance",
+  "private_key_id": "fee425362194357b4ac3084e4188838dac6acc78",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZ6nKc0dsv73Eh\nP1MYDLp2/eL8dYLN2pKuSqyr/dyo91U9d4xx31mpCtj6uhU4A8ey5GT54BoHJvRi\n0ah90zP5QIEeVfwrj+HDsApg2CWy0DtZQc++fcVLS3ehY1ht3MMnMYYacW+z4P40\n9i8Z+PVX8Jq2rwMWDWm6PE0vb9+GZ/6DaBMMtmorXt0bvvt6FXEgZ1/MBHCs4v3u\nRi9eVtRAckpnj6BmcBzI+FkjttSmXRTT1brsixwXNn6xtimIw/aQ9sznt3Bf3zKY\nhzHwwj18IfTmwTfbf0QwBbMKSn0Ddd+5vfPighixW8FbhJgsomhqM6+jxHGLCs9w\nWKqtKNJdAgMBAAECggEAB5/9plbCJya8hs/K7glVUEro8YbWbrKKYGE03TMdpfyQ\nNdLkOKslMtYyKm/EGfjT44K8tRuY0uLo4+Oh1ClFj8qohJxjSE5ECuSy2u76lAus\n5UjOu+51rqvzgdOn6UwzY0CHMzoAkRg7J4pCXVPJ7eukK5FAd+SR7FYmKJXvCdUI\nLM5mhrIzsMOw048O643sk4je4SDOo1Xclu67kn/oGrULQoo2dAtNY/BxoQXo8WxZ\ncSfU5vr4Zj3j7n146cPyQHoP3mbizCcf+qL6jNbN9B18xS68l793kMEP9QFFr0af\niQWh8xQLBn/YZs8XvapVtEiox5nHkUMIhDgQjtY5FwKBgQD00EwDdzJpd0J0dwFf\n++oynWTKD4/GofD0SfdtvUxVUyZ9BGYU8wAVPF4wD+VyRf8hrmozswmhbqnYoeZx\nMmIH/7J1g/yLouYffLgQyb+YJC+Y+8T+PDPp/zBABSFNG2giLNIqTb1J+MVrFNRC\nOu7OMyHOOxxCAjwFS3Wrsz8KkwKBgQDj34OCpsGs+vUQxtb4P/MAk7SiphuRTKly\nBp98vggQv4I/Q+0FKU0midkwopiVfLVgNsk9fc3VPvcXxsGgpODcMXxFB4vMTd3W\n3tLGJvO/O8Pk4FeDOrQf/C7iJXQ0N7o4dtEllTdVoOEIVkM+P511C7IlQSZaUtbQ\noMZnpV+VTwKBgQC4Cm9am502VAWNcHmEIumpK1G95Xz8onl17LUptolQC7Z/fXMQ\nhK2nST61ev3OrnhiZbBJNWskBQGCbhPDPVEdGkiat6J/hvLg8O2fEUwLoAh4Ra2O\nQsv0OXeYaULjqJrcNj24t8B5f59KJNp8/7jPIvljBGT16qAciuHnNlVKKQKBgHst\nPUeIoLTCy2oQMe/rkY3ESiaJp+k5CXdLwTaK+o0jGGLecucRVlT4uuChY92alei2\ndL26nWMiMCs4Ez6lIa+lSEmANL9xb/NQa5sVPzkmM1QrOOME/o0zopw4JsJ7RTx0\nbcXlDQ5KcpoxFxQ1CwZUFi4xM2wrz1bjMZyhNjPdAoGAXbQK0VQS8K09kdkjb5pY\ntKi6pK7FkP84G34fP7Slqzb9W5WfSIHBECdoS9bKtgxt0TPU3kmmKfZ3aXjlLoIv\nRdWFyEw/cPbwF0t6ExmEfmNnGGMf6YxWRKSgRKZnYqW/xFJvFy91sb5kww6VOtrO\nhaJVAbro98ZXvI5qINFSCu4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cocolife@digiinsurance.iam.gserviceaccount.com",
+  "client_id": "104805309298700337524",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cocolife%40digiinsurance.iam.gserviceaccount.com"
+}
